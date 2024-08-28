@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма анкетування</title>
+    <link rel="stylesheet" href="css/poll-styles.css">
+	<link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+ <!-- Шапка сайту -->
+    <header>
+	 <div style="display: flex; align-items: center;">
+            <img src="img/logo.png" alt="Логотип сайту" style="width: 200px; height: auto; margin-right: 20px;">
+			</div>
+            <h1>Форма aнкетування</h1>
+        <nav>
+            <ul>
+                <li><a href="Exit.html">Вхід</a></li>
+                <li><a href="registration.html">Реєстрація</a></li>
+                <li><a href="index.html">Головна</a></li>
+				<li><a href="News.html">Новини</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="form-section">
+        <form action="#" method="post" class="survey-form">
+            <!-- Поле логін -->
+            <div class="form-group">
+                <label for="login">Логін:</label>
+                <input type="text" id="login" name="login" required>
+            </div>
+
+            <!-- Поле електронної пошти -->
+            <div class="form-group">
+                <label for="email">Електронна пошта:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <!-- Поле розширеного текстового повідомлення -->
+            <div class="form-group">
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <!-- Поля з випадним списком -->
+            <div class="form-group">
+                <label for="dropdown">Оберіть ваш улюблений жанр гри:</label>
+                <select id="dropdown" name="genre" required>
+                    <option value="shooter">Шутер</option>
+                    <option value="rpg">РПГ</option>
+                    <option value="strategy">Стратегія</option>
+                    <option value="adventure">Пригоди</option>
+                </select>
+            </div>
+
+            <!-- Група перемикачів -->
+            <div class="form-group">
+                <label>Ви грали у Metro Exodus</label>
+                <div>
+                    <input type="radio" id="yes" name="played" value="yes">
+                    <label for="yes">Так</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="played" value="no">
+                    <label for="no">Ні</label>
+                </div>
+            </div>
+
+            <!-- Група прапорців -->
+            <div class="form-group">
+                <label>Які платформи ви використовуєте для гри? (можна вибрати кілька):</label>
+                <div>
+                    <input type="checkbox" id="pc" name="platform" value="PC">
+                    <label for="pc">ПК</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="xbox" name="platform" value="Xbox">
+                    <label for="xbox">Xbox</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="playstation" name="platform" value="PlayStation">
+                    <label for="playstation">PlayStation</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="switch" name="platform" value="Switch">
+                    <label for="switch">Nintendo Switch</label>
+                </div>
+            </div>
+
+            <!-- Кнопки відправки та очищення -->
+            <div class="form-group">
+                <button type="submit">Відправити</button>
+                <button type="reset">Очистити</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Zombie. Всі права захищені.</p>
+    </footer>
+</body>
+</html>

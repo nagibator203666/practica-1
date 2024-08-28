@@ -1,0 +1,126 @@
+/* Основні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+}
+
+
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.form-section {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-group button[type="reset"] {
+    background-color: #ccc;
+    color: #333;
+}
+
+.form-group button:hover {
+    background-color: #ff7400;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

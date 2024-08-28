@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація</title>
+    <link rel="stylesheet" href="css/registration-styles.css">
+	<link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+ <!-- Шапка сайту -->
+    <header>
+	<div style="display: flex; align-items: center;">
+            <img src="img/logo.png" alt="Логотип сайту" style="width: 200px; height: auto; margin-right: 20px;">
+			</div>
+        <h1>Зареєструйтесь, щоб отримувати нові новини про гру!</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="Exit.html">Вхід</a></li>
+                <li><a href="News.html">Новини</a></li>
+				<li><a href="poll.html">Форма aнкетування</a></li>
+            </ul>
+        </nav>
+    </header>
+	
+<!-- Секція "Реєстрація" -->
+    <section id="registration">
+        <h2>Реєстрація</h2>
+        <form method="post">
+            <p>
+                <label for="username">Ім'я користувача:</label>
+                <input type="text" name="username" id="username" required>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <label for="password">Пароль:</label>
+                <input type="password" name="password" id="password" required>
+            </p>
+            <p>
+                <label for="confirm_password">Підтвердіть пароль:</label>
+                <input type="password" name="confirm_password" id="confirm_password" required>
+            </p>
+            <p>
+                <button type="submit">Зареєструватися</button>
+				<button type="reset">Очистити</button>
+            </p>
+        </form>
+    </section>
+	    <!-- Підвал сайту -->
+    <footer>
+        <p>&copy; 2024 Zombie. Всі права захищені.</p>
+    </footer>
+	</body>
+</html>
